@@ -3,6 +3,7 @@
 
 #include <string>
 #include <iostream>
+#include <cstdlib>
 #include "Payment.cpp"
 using namespace std;
 
@@ -20,6 +21,14 @@ public:
         cout << "\nProcessing Card payment of Rs. " << amount
              << " using card ending in "
              << cardNumber.substr(cardNumber.length() - 4) << "...\n";
+
+        // Simulate ~15% chance of failure (e.g. card declined)
+        int roll = rand() % 100;
+        if (roll < 15) {
+            cout << "Payment failed: Card declined by bank.\n";
+            return false;
+        }
+
         cout << "Payment successful!\n";
         return true;
     }
