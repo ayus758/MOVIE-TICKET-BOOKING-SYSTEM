@@ -8,9 +8,9 @@ cinema, one screen, and multiple shows across three movies.
 
 | Movie              | Language | Duration | Shows (timings)          |
 |---------------------|----------|----------|---------------------------|
-| Mirzapur             | Hindi    | TBD      | e.g. 10:00 AM, 6:00 PM    |
-| Avengers: Endgame    | English  | TBD      | e.g. 1:00 PM, 9:00 PM     |
-| Super 30              | Hindi    | TBD      | e.g. 4:00 PM              |
+| Mirzapur             | Hindi    | 3 hr      | e.g. 10:00 AM, 6:00 PM    |
+| Avengers: Endgame    | English  | 3 hr      | e.g. 1:00 PM, 9:00 PM     |
+| Super 30              | Hindi    |2.5 hr      | e.g. 4:00 PM              |
 
 Single screen, seat layout: 10 Silver, 10 Gold, 10 Platinum seats.
 
