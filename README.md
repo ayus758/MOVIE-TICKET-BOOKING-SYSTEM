@@ -1,6 +1,6 @@
 # Movie Ticket Booking System
 
-A console-based movie ticket booking system built in C++, developed as part of the TCS-504 assignment.
+A console-based movie ticket booking system built in C++, developed as part of the System Design (TCS-504) assignment.
 The design follows OOP principles — encapsulation, inheritance, composition/aggregation — with a single
 cinema, one screen, and multiple shows across three movies.
 
